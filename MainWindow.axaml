@@ -1,0 +1,15 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        Height="500" Width="400"
+        x:Class="summarize_video.MainWindow"
+        Title="Summarize Video Speech">
+    <StackPanel Margin="20">
+    <TextBlock Name="StatusText" Margin="0,0,0,10" Text="Select a video file to begin."/>
+    <Button Name="SelectVideoButton" Content="Select Video" Margin="0,0,0,10"/>
+    <Button Name="StartButton" Content="Start Summarizing" Margin="0,0,0,10"/>
+    <TextBox Name="TranscriptionOutput" AcceptsReturn="True" TextWrapping="Wrap" Height="200"/>
+  </StackPanel>
+</Window>
