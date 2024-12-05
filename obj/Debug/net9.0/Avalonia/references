@@ -31,6 +31,7 @@
 /usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/9.0.0/ref/net9.0/Microsoft.Win32.Registry.dll
 /usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/9.0.0/ref/net9.0/mscorlib.dll
 /usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/9.0.0/ref/net9.0/netstandard.dll
+/home/l/.nuget/packages/newtonsoft.json/13.0.3/lib/net6.0/Newtonsoft.Json.dll
 /home/l/.nuget/packages/skiasharp/2.88.8/lib/net6.0/SkiaSharp.dll
 /usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/9.0.0/ref/net9.0/System.AppContext.dll
 /usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/9.0.0/ref/net9.0/System.Buffers.dll

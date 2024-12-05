@@ -3,6 +3,7 @@ using System;
 using System.IO;
 using System.Diagnostics;
 using Vosk;
+using Avalonia.Controls;
 
 namespace summarize_video;
 

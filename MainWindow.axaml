@@ -2,14 +2,51 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
-        Height="500" Width="400"
+        mc:Ignorable="d" 
+        d:DesignWidth="800" d:DesignHeight="450"
+        Width="480" Height="640"
         x:Class="summarize_video.MainWindow"
-        Title="Summarize Video Speech">
-    <StackPanel Margin="20">
-    <TextBlock Name="StatusText" Margin="0,0,0,10" Text="Select a video file to begin."/>
-    <Button Name="SelectVideoButton" Content="Select Video" Margin="0,0,0,10"/>
-    <Button Name="StartButton" Content="Start Summarizing" Margin="0,0,0,10"/>
-    <TextBox Name="TranscriptionOutput" AcceptsReturn="True" TextWrapping="Wrap" Height="200"/>
-  </StackPanel>
+        Title="Summarize Video">
+
+    <StackPanel Margin="20" VerticalAlignment="Center" HorizontalAlignment="Center">
+        
+        <TextBlock Name="StatusText" 
+                   Margin="0,0,0,10" 
+                   Text="Select a video file to begin." 
+                   FontSize="16" 
+                   Foreground="Gray"/>
+
+        <Button Name="SelectVideoButton" 
+                Content="Select Video" 
+                Margin="0,0,0,10" 
+                FontSize="14" 
+                HorizontalAlignment="Stretch" 
+                VerticalAlignment="Center"/>
+
+        <Button Name="StartButton" 
+                Content="Start" 
+                Margin="0,10,0,10" 
+                FontSize="14" 
+                HorizontalAlignment="Stretch" 
+                VerticalAlignment="Center"/>
+
+        <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" Height="200" Margin="0,10,0,10">
+            <TextBox Name="TranscriptionOutput"
+              AcceptsReturn="True"
+              TextWrapping="Wrap"
+              IsReadOnly="True"
+              HorizontalAlignment="Stretch"
+              VerticalAlignment="Stretch"
+              Width="420"
+              MaxWidth="420" />
+        </ScrollViewer>
+
+        <ProgressBar Name="ProgressBar" 
+                     Minimum="0" 
+                     Maximum="100" 
+                     Height="20" 
+                     Margin="0,10,0,10" 
+                     IsIndeterminate="False" 
+                     IsVisible="False" />
+    </StackPanel>
 </Window>

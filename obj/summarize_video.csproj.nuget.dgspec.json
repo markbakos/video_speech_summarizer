@@ -64,6 +64,14 @@
               "target": "Package",
               "version": "[11.2.1, )"
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "vosk": {
               "target": "Package",
               "version": "[0.3.38, )"
