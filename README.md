@@ -69,8 +69,7 @@ cd video_speech_summarizer
 1. Launch the application.
 2. Click "Select Video" to choose a video file.
 3. Click "Start" to process the video.
-   - The progress bar will indicate the processing status.
-   - The transcribed text will appear in the text box.
+   - The progress bar will indicate the processing status. (WIP).
    - A summarized version of the text will be displayed after transcription.
 
 ## Project Structure
