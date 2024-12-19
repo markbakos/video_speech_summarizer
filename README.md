@@ -1,6 +1,6 @@
 # Video Speech Summarizer
 
-This application processes a video file by extracting its audio, transcribing the audio into text, and summarizing the transcribed text using a lightweight AI model. It is built using C#, AvaloniaUI, and Python (for the summarization API).
+This application processes a video file by extracting its audio, transcribing the audio into text, and summarizing the transcribed text using the T5-Small AI model. It is built using C#, AvaloniaUI, and Python (for the summarization API).
 
 ## Features
 
@@ -44,20 +44,12 @@ cd video_speech_summarizer
    - Extract the model folder into `bin/Debug/net9.0/vosk-model`.
 
 4. **Start the Python Summarization API**
-   - Navigate to the `api/` folder:
-     ```bash
-     cd api
-     ```
    - Start the Flask API:
      ```bash
      python summarizer.py
      ```
 
 5. **Run the Application**
-   - Navigate back to the main project folder:
-     ```bash
-     cd ../
-     ```
    - Build and run the application:
      ```bash
      dotnet build
@@ -69,7 +61,6 @@ cd video_speech_summarizer
 1. Launch the application.
 2. Click "Select Video" to choose a video file.
 3. Click "Start" to process the video.
-   - The progress bar will indicate the processing status. (WIP).
    - A summarized version of the text will be displayed after transcription.
 
 ## Project Structure
@@ -77,8 +68,6 @@ cd video_speech_summarizer
 - **Main Project Folder**
   - `bin/Debug/net9.0/ffmpeg/`: Contains the FFmpeg binaries.
   - `bin/Debug/net9.0/vosk-model/`: Contains the Vosk speech recognition model.
-- **API Folder**
-  - `summarizer.py`: Python Flask API for text summarization.
 
 ## Troubleshooting
 
@@ -101,3 +90,8 @@ cd video_speech_summarizer
 ## Contributing
 Feel free to fork this repository, make changes, and submit a pull request.
 
+## 📧 Contact
+For any inquiries, feel free to reach out:
+
+Email: [markbakosss@gmail.com](mailto:markbakosss@gmail.com) <br>
+GitHub: [markbakos](https://github.com/markbakos)
